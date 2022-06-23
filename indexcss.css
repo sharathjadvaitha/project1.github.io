@@ -1,0 +1,402 @@
+.serv
+{
+  position :fixed;
+  top:0;
+  left:0;
+  z-index:2;
+  height:7rem;
+  padding:20px;
+  margin:10px;
+  background-color:#9900cc;
+  width:95%;
+}
+.gf
+{
+  color:white;
+  position:absolute;
+  top:1rem;
+  left:10rem;
+  font-style:italic;
+  font-family:'courier',serif;
+}.servtext
+{
+  color:white;
+  position:relative;
+  top:-15rem;
+  font-size:70px;
+  font-family:'courier',serif;
+}
+.progress-container {
+  width: 100%;
+  height: 8px;
+  background: #ccc;
+}
+
+.progress-bar {
+  height: 8px;
+  background: #04AA6D;
+  width: 0%;
+}
+
+
+.backimg
+{
+  /* background-image:url('backimage.jpg');
+  background-size:50%;
+  repeat:no-repeat; */
+  position:relative;
+  top:8rem;
+  width:90rem;
+  height:35rem;
+  margin:10px;
+}
+.visionimg
+{
+  border-radius:50%;
+  width:5rem;
+}
+.servicesbutn
+{
+  position:relative;
+  float:right;
+  padding:10px;
+  margin:10px;
+  border:2px solid black;
+  background-color:#00ffff;
+  color:black;
+  font-size:20px;
+  font-family:'courier',serif;
+  font-weight:bold;
+}
+.head
+{
+  background-color:#000080;
+  color:white;
+  margin:10px;
+  padding:20px;
+  font-size:20px;
+  border-radius:25px;
+  font-family:'sans-serif',serif;
+}
+.visionimg1
+{
+  border-radius:50%;
+}
+.visiontext
+{
+  position:relative;
+  top:-5rem;
+  left:12rem;
+  color:white;
+  width:max-content;
+}
+.directorboard
+{
+  background-color:#ffccff;
+  font-size:20px;
+  margin:10px;
+  padding:20px;
+  border-radius:25px;
+  font-family:'sans-serif',serif;
+  height:30rem;
+}
+.directorboard1
+{
+  padding:20px;
+  border:5px solid black;
+  border-radius:25px;
+  width:40rem;
+  height:18rem;
+}
+.directorboard2
+{
+  padding:20px;
+  border:5px solid black;
+  border-radius:25px;
+  position:relative;
+  top:-21rem;
+  left:43.5rem;
+  width:40rem;
+  height:18rem;
+}
+.directo1pos
+{
+  position:relative;
+  left:20rem;
+  top:-15rem;
+  width:max-content;
+}
+
+.directorinfo
+{
+  font-size:25px;
+  color:#000080;
+}
+.phoneicon,.emailicon
+{
+  width:40px;
+  border-radius:50%;
+  position:relative;
+  top:12px;
+}
+.moto
+{
+  color:red;
+}
+#db1:hover
+{
+  background-color:#000080;
+  color:white;
+}
+#db2:hover
+{
+  background-color:#000080;
+  color:white;
+}
+.contactus
+{
+  background-color:#000080;
+  border-radius:25px;
+  margin:10px;
+  padding:30px;
+  color:white;
+  height:35rem;
+}
+.inputcontact
+{
+  padding:10px;
+  font-size:15px;
+}
+button
+{
+  padding:10px;
+  font-size:20px;
+  background-color:black;
+  color:white;
+  font-family:'Brush Script MT',cursive;
+}
+button:hover
+{
+  background-color:darkgrey;
+}
+.bphone
+{
+  position:relative;
+  top:-7px;
+}
+.admin
+{
+  position:relative;
+  top:-33rem;
+  float:right;
+}
+.followus
+{
+  position:relative;
+  top:-23rem;
+  float:right;
+  left:10rem;
+}
+.followusicon
+{
+  position:relative;
+  top:10px;
+}
+.conatactimg
+{
+  width:2px;
+  height:2px;
+}
+.foot
+{
+  padding:20px;
+  color:black;
+  height:3rem;
+  background-color:#ccff99;
+  border-radius:25px;
+  width:max-content;
+  position:relative;
+  left:35rem;
+  margin:20px;
+}
+.f1
+{
+  position:relative;
+  top:-1rem;
+}
+.moreinfo
+{
+  background-color:#000080;
+  border-radius:25px;
+  padding:20px;
+  color:white;
+  font-size:25px;
+}
+.contactusimg
+{
+  position:relative;
+  top:-27rem;
+  left:16rem;
+  width:20rem;
+}
+#about
+{
+  font-size:70px;
+  font-family:'courier',serif;
+  color:white;
+  position:relative;
+  top:-17rem;
+  left:-1rem;
+}
+@media (max-width:500px) and (min-width:370px)
+{
+  #about
+  {
+    font-size:70px;
+    font-family:'courier',serif;
+    color:white;position:relative;
+    top:-27rem;
+    left:1rem;
+  }
+  .gf
+  {
+    font-size:30px;
+    position:relative;
+    top:-4rem;
+    left:5rem;
+  }
+  .serv
+  {
+    width:24.2rem;
+    /* margin:20px; */
+    height:4rem;
+    position:relative;
+    left:-0.7rem;
+  }
+  .visionimg
+  {
+    width:4rem;
+    position:relative;
+    left:-1rem;
+  }
+  .progress-container
+  {
+    width:0;
+  }
+  .servicesbutn
+  {
+    position:relative;
+    top:-2rem;
+    left:-7rem;
+    /* text-align:center; */
+    /* margin : 10px 10px 20 10px; */
+  }
+  .backimg
+  {
+    width:25rem;
+    margin:30px 10px 10px 10px;
+    /* height:20rem; */
+    position:relative;
+    top:-3rem;
+    left:0rem;
+  }
+  .visiontext
+  {
+    position:relative;
+    top:1rem;
+    left:-0.1rem;
+    width:20rem;
+    /* font-size:20px; */
+  }
+  .head
+  {
+    position:relative;
+    left:-1.1rem;
+    margin:20px;
+    width:23.5rem;
+  }
+  #img1,#img2,#img3
+  {
+    width:20rem;
+    margin:10px;
+    position:relative;
+    left:-1.4rem;
+  }
+  .moreinfo
+  {
+    position:relative;
+    left:-1.1rem;
+    margin:20px;
+    width:23.5rem;
+  }
+  .directorboard
+  {
+    position:relative;
+    left:-1.1rem;
+    margin:20px;
+    height:85rem;
+    width:23.5rem;
+  }
+  .directorboard1
+  {
+    width:15rem;
+    height:25rem;
+    width:20rem;
+  }
+  .boss
+  {
+    width:5rem;
+  }
+  .directo1pos
+  {
+    position:relative;
+    left:-1.1rem;
+    top:1rem;
+  }
+  .directorboard2
+  {
+    height : 35rem;
+    position:relative;
+    left:-0.2rem;
+    top:5rem;
+    width:20rem;
+  }
+  .woman
+  {
+    width:5rem;
+  }
+  .moto1
+  {
+    width:15rem;
+    position:relative;
+    left:1.5rem;
+  }
+  .contactus
+  {
+    position:relative;
+    left:-1.1rem;
+    margin:20px;
+    height:65rem;
+    width:22rem;
+  }
+  .admin
+  {
+    position:relative;
+    top:1rem;
+  }
+  .followus
+  {
+    position:relative;
+    left:-5rem;
+    top:4rem;
+  }.contactusimg
+  {
+    width:0;
+  }
+  .foot
+  {
+    width:20rem;
+    position:relative;
+    left:0rem;
+  }
+}
